@@ -7,8 +7,7 @@ const secondsHand = clock.querySelector(".second-hand");
 function updateTime() {
   const currentDate = new Date();
 
-   // referenced ukdgit repository (although clock was working 100% the test cases aren't passing)
-  const seconds = currentDate.getSeconds();
+   const seconds = currentDate.getSeconds();
   const minutes = currentDate.getMinutes();
   const hours = currentDate.getHours();
 
