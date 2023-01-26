@@ -1,4 +1,3 @@
-//your code here
 const clock = document.querySelector(".clock-face");
 const hoursHand = clock.querySelector(".hour-hand");
 const minutesHand = clock.querySelector(".min-hand");
@@ -26,4 +25,3 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 updateTime();
-
